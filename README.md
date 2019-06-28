@@ -25,6 +25,8 @@ for number in 4..<8{
 }
 
 print(myNum)
+
+//prints 23 because in each iteration that doesn't meet the conditional statement, i.e. each time the if statement is NOT true, it adds the current range number to the variable myNum. In the first iteration, 8 + 4 = 12 and var value is 12. In second iteration adds 5 to 12, and var value is 17 and so on until the condition breaks when true (i.e. when number in range = 7). 
 ```
 
 ***
@@ -58,6 +60,8 @@ D)
 for l in 1...100 where _ < 101 {
     print(l)
 }
+
+//B and C will print the range. B is printing the range from 1 to 100, and C is printing range when k is in the range of 1 and 999 AND where k is less than 101.
 ```
 
 ***
@@ -71,6 +75,7 @@ for _ in 1...10{
         print("Nesting!")
     }
 }
+//it will print 100 times because for each iteration is incrementing itself by the value in the range, that is nesting 10 times for the 10 times in the range. 10 x 10 Nesting!
 ```
 
 ***
@@ -116,6 +121,8 @@ while t == t{
     print("Ahoy-hoy!")
     t += 1
 }
+
+// a and d are infinite loops.
 ```
 
 ***
